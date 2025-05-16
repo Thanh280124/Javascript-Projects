@@ -34,15 +34,16 @@ h1{
     justify-content: center;
     border: 2px solid;
     padding: 10px 20px 0px 20px;
-    background-color: rgb(205, 160, 232);
+    background-color: rgb(238, 193, 103);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 5px;
 }
 
 .text{
-    background-color: blueviolet;
+    background-color: rgb(242, 213, 85);
     padding: 5px;
+    border-radius: 5px;
 }
 
 .num{
@@ -51,5 +52,5 @@ h1{
 
 #ampm{
   font-size: 30px;
-  color: blueviolet;
+  color: rgb(226, 195, 43);
 }
