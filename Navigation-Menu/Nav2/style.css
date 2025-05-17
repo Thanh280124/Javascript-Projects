@@ -27,7 +27,10 @@ a{
     text-decoration: none;
     color: black;
     position: relative;
-    padding: 10px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 22px;
+    transition: 1s;
 }
 
 a::before{
@@ -36,29 +39,36 @@ a::before{
     top: 0;
     left: 0;
     width: 100%;
-    height: 2px;
-    background-color: white;
-     transition: all 1s;
-    transform: scale(0);
-    transform-origin: left;
+    height: 100%;
+    opacity: 0;
+    transform: scaleY(2);
+    transition: 1s;
+    border-top: 2px solid crimson;
+    border-bottom: 2px solid crimson;
 }
 
 a:hover::before{
-    transform: scale(1);
+    opacity: 1;
+    transform: scaleY(1.2);
 }
 
 a::after{
     content: '';
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 2px;
-    background-color: white;
-     transition: all 1s;
+    height: 100%;
+    background-color: crimson;
+    transition: 1s;
     transform: scale(0);
-    transform-origin: right;
+    z-index: -1;
 }
+
 a:hover::after{
     transform: scale(1);
+}
+
+a:hover{
+    color: white;
 }
