@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    background: linear-gradient(#EEAECA,#BFB5DA,#94BBE9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    position: relative;
+    font-size: 40px;
+}
+
+.content::before{
+    content: 'Tooltip Text';
+    position: absolute;
+    padding: 10px;
+    bottom: 90px;
+    width: 80%;
+    height: 20%;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #222;
+    color: white;
+    z-index: -1;
+    opacity: 0;
+    transition: all 1s;
+}
+.content::after {
+    content: '';
+    position: absolute;
+    bottom: 71px; 
+    left: 50%; 
+    width: 0;
+    height: 0;
+    border: 10px solid transparent; 
+    border-top-color: #222; 
+    opacity: 0; 
+    transform: translateX(-80%) ;
+    transition: opacity 1s ease, transform 0.3s ease; 
+    z-index: 1;
+}
+
+.content:hover::before {
+    opacity: 1; /* Show tooltip on hover */
+    transform: translateY(0); /* Slide up to final position */
+}
+
+.content:hover::after {
+    opacity: 1; /* Show triangle on hover */
+ 
+}
+
