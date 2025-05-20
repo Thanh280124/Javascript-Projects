@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(#6ED65C, #B3A6E0, #94BBE9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 700px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #440bc7;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #38a3ce;
+    margin: 0; /* Added to remove default margin */
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+}
+
+.accordion {
+    width: 100%; /* Ensure accordion takes container width */
+}
+
+.accordion-item {
+    background-color: white;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0; /* Added padding for better spacing */
+}
+
+.accordion-content {
+    max-height: 0; 
+    overflow: hidden;
+    transition: max-height 0.3s ease; 
+}
+
+.accordion-content.active {
+    max-height: 150px; 
+    padding: 10px 0; 
+}
+
+span.btn {
+    cursor: pointer;
+    position: relative;
+    font-size: 24px; 
+    transition: transform 0.3s ease; 
+}
+
+span.btn.active {
+    transform: rotate(90deg); 
+}
+
