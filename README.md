@@ -1,7 +1,4 @@
-CHALLENGING MYSELF FOR 100 PROJECT WITH HTML,CSS, JAVASCRIPT   
 # 🚀 100 Projects with HTML, CSS, and JavaScript
-
-![Project Banner](https://via.placeholder.com/1200x200.png?text=100+Projects+Challenge) <!-- Replace with your own banner image -->
 
 ## 🎯 Overview
 Welcome to my **100 Projects Challenge**! I'm building 100 unique projects using **HTML**, **CSS**, and **JavaScript** to master front-end development, spark creativity, and build a robust portfolio. Each project is a step toward becoming a better developer.
@@ -25,14 +22,7 @@ Welcome to my **100 Projects Challenge**! I'm building 100 unique projects using
 - **`docs/`**: Notes and planning.
 - **`README.md`**: This file.
 
-## 📋 Project List
-| # | Project Name | Description | Live Demo | Source Code |
-|---|--------------|-------------|-----------|-------------|
-| 01 | [Project Name] | A brief description of the project | [Demo](#) | [Code](./projects/project-01) |
-| 02 | [Project Name] | A brief description of the project | [Demo](#) | [Code](./projects/project-02) |
-| ... | ... | ... | ... | ... |
-
-**Progress**: 0/100 projects completed 🟦⬜⬜⬜⬜ (Update as you go!)
+**Progress**: 21/100 projects completed 🟦⬜⬜⬜⬜ (Update as you go!)
 
 ## 💻 Technologies Used
 - **HTML5**: Semantic, accessible markup.
@@ -43,4 +33,8 @@ Welcome to my **100 Projects Challenge**! I'm building 100 unique projects using
 ## 🚀 How to Explore
 1. **Clone the Repo**:
    ```bash
-   git clone https://github.com/your-username/100-projects-html-css-js.git
+   git clone https://github.com/Thanh280124/Javascript-Projects.git
+2. **Navigate to Porject you want**:
+    ```bash
+    cd name project
+3. **Run index.html by live server**:
