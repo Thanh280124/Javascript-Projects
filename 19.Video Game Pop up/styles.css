@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img-con{
+    background: url(pubg_game.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover ;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+   top: 20px;
+   right: 50px;
+   width: 100px;
+   cursor: pointer;
+   animation-name: bounce;
+   animation-duration: 1s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+    50%{
+        transform: translateY(-20px);
+        animation-timing-function: ease-in;
+    }
+    100%{
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+}
+
+.video-con{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.7s;
+    background-color: black;
+}
+
+.active{
+    visibility: hidden;
+}
+
+.icon{
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    cursor: pointer;   
+}
