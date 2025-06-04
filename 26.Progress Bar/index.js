@@ -3,6 +3,7 @@ const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 const circles = document.querySelectorAll(".circle");
 
+
 let activeIndex =1
 
 nextBtn.addEventListener("click", () => {
@@ -26,7 +27,7 @@ prevBtn.addEventListener("click", () => {
 
 function updateUI(){
     circles.forEach((circle,index) =>{
-        if(index< activeIndex){
+        if(index < activeIndex){
             circle.classList.add('active')
         }else{
             circle.classList.remove('active')
