@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+color: white;
+}
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+.card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+input{
+    background-color: rgb(119, 119, 119);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 105px;
+    text-align: center;
+      outline: none;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    padding: 1rem 3rem;
+    font-size: 25px;
+    width: 100%;
+    border-radius:7px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 26px;
+    color: white;
+}
