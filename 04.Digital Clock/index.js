@@ -21,9 +21,9 @@ function clockDigital(){
     min.innerHTML = m;
     second.innerHTML = s;
 
-    setTimeout(() =>{
-        clockDigital();
-    })
+    setTimeout(() => {
+    clockDigital();
+}, 1000);
 
     
 }
