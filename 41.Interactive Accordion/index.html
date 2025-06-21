@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Accordion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .card{
+        display: flex;
+    }
+</style>
+<body>
+   <div class="container">
+       <div>
+        <div class="card">
+        <h1>Html</h1>
+        <button class="tab-buttons" data-tabs = '0' class="active">HTML</button>
+        </div>
+
+         <p class="tab active" id="tab-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+        
+        </div>
+
+       <div>
+        <div class="card">
+        <h1>Html</h1>
+        <button class="tab-buttons" data-tabs = '1'>HTML</button>
+        </div>
+
+        
+         <p class="tab" id="tab-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+        
+        </div>
+
+        <div>
+        <div class="card">
+        <h1>Html</h1>
+        <button class="tab-buttons" data-tabs = '2' class="active">HTML</button>
+        </div>
+         <p class="tab" id="tab-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+        </div>
+
+        
+   </div>
+</body>
+<script src="index.js"></script>
+</html>
