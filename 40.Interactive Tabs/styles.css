@@ -1,3 +1,16 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 40%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem 2rem;
+  border-radius: 8px;
+}
 .tab {
   display: none;
 }
@@ -5,14 +18,24 @@
 .tab.active {
   display: block;
 }
-
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
 
 button{
-   font-size: 30px;
+   font-size: 20px;   
    border: none;
     background-color: white;
 }
 
 button.active{
-    border-bottom: 2px solid purple;
+    border-bottom: 5px solid purple;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
 }
