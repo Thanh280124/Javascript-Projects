@@ -1,0 +1,31 @@
+ body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(226, 225, 225);
+    }
+   #emailInput{
+        width: 500px;
+        padding: 30px 25px;
+        font-size: 20px;
+       
+        border-radius: 8px;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: white;
+    position: relative;
+    }
+
+    img{
+        position: absolute;
+        transform: translateX(570%);
+        display: none;
+    }
+   
