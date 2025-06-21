@@ -1,19 +1,61 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+ 
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem 5rem;
+}
+
+h1{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion{
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+p {
+  font-size: 1.2rem;
+  margin: 0;
+}
 .tab {
   display: none;
+  transition: opacity 0.3s ease;
 }
 
 .tab.active {
   display: block;
 }
 
-
 button{
    font-size: 30px;
    border: none;
-    background-color: white;
+    background-color: aliceblue;
     cursor: pointer;
 }
-
-button.active{
-    border-bottom: 2px solid purple;
+img{
+  transform: rotate(180deg);
 }
+.rotate {
+  transform: rotate(360deg);
+  transition: transform 0.3s ease;
+}
+
+.tab-buttons img {
+  transition: transform 0.3s ease;
+}
+

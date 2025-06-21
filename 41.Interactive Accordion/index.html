@@ -6,43 +6,40 @@
     <title>Interactive Accordion</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    .card{
-        display: flex;
-    }
-</style>
+
 <body>
    <div class="container">
-       <div>
+    <h1>Interactive Accordion</h1>
+       <div class="accordion">
         <div class="card">
-        <h1>Html</h1>
-        <button class="tab-buttons" data-tabs = '0' class="active">HTML</button>
+                <h1>Html</h1>
+                <button class="tab-buttons" data-tabs = '0'><img src="arrow.png" height="20" width="20"></button>
+        </div>
+         <p class="tab active" id="tab-0">HTML (HyperText Markup Language) is a markup language used to structure web pages and content for display in a web browser. It is used for text representation, defining web page and web content format, providing search engines with page context and more.</p>
         </div>
 
-         <p class="tab active" id="tab-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-        
-        </div>
-
-       <div>
+       <div class="accordion">
         <div class="card">
-        <h1>Html</h1>
-        <button class="tab-buttons" data-tabs = '1'>HTML</button>
+        <h1>Css</h1>
+        <button class="tab-buttons" data-tabs = '1'><img src="arrow.png" height="20" width="20"></button>
         </div>
-
-        
-         <p class="tab" id="tab-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-        
+         <p class="tab" id="tab-1">Cascading Style Sheets. Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
         </div>
-
-        <div>
+        <div class="accordion">
+        
         <div class="card">
-        <h1>Html</h1>
-        <button class="tab-buttons" data-tabs = '2' class="active">HTML</button>
+        <h1>Javascript</h1>
+        <button class="tab-buttons" data-tabs = '2'><img src="arrow.png" height="20" width="20"></button>
         </div>
-         <p class="tab" id="tab-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+         <p class="tab" id="tab-2">JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)</p>
         </div>
-
-        
+<div class="accordion">
+         <div class="card">
+        <h1>React</h1>
+        <button class="tab-buttons" data-tabs = '3'><img src="arrow.png" height="20" width="20"></button>
+        </div>
+         <p class="tab" id="tab-3">React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next. js and Remix. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality.</p>
+        </div>
    </div>
 </body>
 <script src="index.js"></script>
