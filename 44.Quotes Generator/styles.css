@@ -1,0 +1,40 @@
+ body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #7fb4ec;
+    }
+    button {
+        padding: 1rem 2rem;
+        margin: 10px;
+        font-size: 25px;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .quote-card{
+        width: 60%;
+        text-align: center;
+        display: flex;
+        font-size: 35px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    .author {
+        font-size: 20px;
+        margin-top: 10px;
+        color: #555;
+    }
