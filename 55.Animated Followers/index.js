@@ -15,7 +15,7 @@ function animateCount(el) {
       current += Math.ceil(target / 100); 
       if (current > target) current = target;
       el.textContent = current;
-      setTimeout(update, 20);
+      setTimeout(update, 1);
     }
   }
 
