@@ -8,7 +8,6 @@ function moveCursor(e){
   let x = e.clientX;
   let y = e.clientY;
 
-
   inner.style.left = `${x}px`
   inner.style.top = `${y}px`
   outer.style.left = `${x}px`
