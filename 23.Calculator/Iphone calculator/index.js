@@ -16,7 +16,8 @@ buttons.forEach(button => {
                     .replace(/×/g, '*')
                     .replace(/,/g, '.');
 
-                currentInput = eval(expression).toString();
+                let result = eval(expression);
+                currentInput = Number.isInteger(result) ? result.toString() : result.toFixed(3);
             } catch {
                 currentInput = 'Error';
             }
