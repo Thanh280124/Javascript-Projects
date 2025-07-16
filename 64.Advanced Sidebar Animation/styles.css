@@ -71,7 +71,7 @@ form input {
   z-index: 100;
 }
 
-/* JavaScript */
+
 .sidebar.active {
   transform: translateX(0);
 }
@@ -103,7 +103,6 @@ form input {
   display: none;
 }
 
-/* JavaScript */
 .sidebar.active .menu .fa-bars {
   display: none;
 }
