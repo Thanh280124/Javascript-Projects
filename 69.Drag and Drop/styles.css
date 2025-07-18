@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(14,13,13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.empty{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 3px solid #fff;
+  background: white;
+}
+
+.fill{
+  background-image: url('https://fastly.picsum.photos/id/242/200/300.jpg?hmac=_v7qaiV_fwDB3NP9lpirq7rMvS10u8lHjqMYNmmXya4');
+height: 195px;
+  width: 195px;
+  background-size: cover;
+  background-position: center;
+  cursor: grab;
+}
+
+.hover{
+  background-color: green;
+  border: 3px dashed #fff;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
