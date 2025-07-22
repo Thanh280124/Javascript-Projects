@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.container{
+  width: 400px;
+  padding: 2em;
+  height: 500px;
+  text-align: center;
+}
+input{
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 50px;
+}
+
+.output{
+  margin-top: 20px;
+  text-align: left;
+} 
+
+.todo{
+  border-left: 4px solid rgb(34,187,51);
+  color: rgb(75,75,75);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.delete{
+  color: blueviolet;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.message{
+  position: absolute;
+  bottom: 1.5rem;
+  left: 2rem;
+  background-color: white;
+  padding: 20px;
+  transform: translateX(0);
+  visibility: hidden;
+  transition: transform 1s ease;
+}
+
+.success{
+  transform: translateX(100px);
+  visibility: visible;
+  background-color: rgb(34, 176, 34);
+  color: white;
+}
+
+.failure{
+  transform: translateX(100px);
+  visibility: visible;
+  background-color: red;
+  color: white;
+}
