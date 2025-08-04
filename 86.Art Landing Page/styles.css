@@ -93,13 +93,225 @@ border-radius: 40px;
 text-align: center;
 font-size: 21px;
 }
+
 span{
   background-color: rgb(27, 106, 243);
   margin-left: 50px;
+  font-size: 24px;
 }
 
+/* third section */
+
 .third{
-  background-color: blue;
-  padding: 10px;
+  background-color: rgb(4, 33, 149);
   height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   padding: 20px 100px;
+   gap: 50px;
 }
+
+h3{
+  background-color: rgb(4, 33, 149);
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.text{
+   background-color: rgb(4, 33, 149);
+  color: white;
+  font-size: 30px;
+  width: 60%;
+  margin-left: 50px;
+}
+
+.text1{
+
+   background-color: rgb(4, 33, 149);
+  color: white;
+  font-size: 25px;
+}
+
+.line{
+  height: 5px;
+  width: 200px;
+  margin-bottom: 30px;
+  background-color: orange;
+}
+
+
+ /* four section */
+.four{
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 400px;
+  border-bottom: 2px solid rgb(219, 219, 219);
+}
+
+.text2{
+  width: 60%;
+  font-size: 20px;
+  color: #b8b4b4;
+}
+
+
+
+/* five section */
+.five{
+  padding: 20px 100px;
+  margin-top: 50px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.view-more{
+  background-color: rgb(27, 106, 243);
+color: white;
+padding: 1rem 4rem;
+border-radius: 40px;
+text-align: center;
+font-size: 21px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    padding: 1rem;
+  }
+
+   .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }
+
+  .card p {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* six section */
+
+  .six{
+    padding: 50px 100px;
+    background-color: rgb(27, 106, 243);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.six img{
+  background-color: white;
+  padding: 0.5rem;
+  transform: translateY(100px);
+}
+  .text3{
+    width: 50%;
+    background-color: rgb(27, 106, 243);
+    
+  }
+
+  .text3 h2{
+    font-size: 50px;
+    background-color: rgb(27, 106, 243);
+  }
+
+  .text3 p{
+    background-color: rgb(27, 106, 243);
+    margin-top: 20px;
+    font-size: 25px;
+    width: 80%;
+  }
+
+  .text3 button{
+    color: rgb(27, 106, 243);
+    border: 1px solid rgb(27, 106, 243);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+
+  /* FOOTER START */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+   height: 400px;
+  background-color: black;
+}
+
+footer .logo-container{
+  background-color: black;
+}
+footer .logo-container h1 {
+  font-size: 4rem;
+background-color: black;
+text-align: center;
+margin-bottom: 50px;
+}
+
+footer .logo-container p {
+  max-width: 400px;
+  font-family: sans-serif;
+  line-height: 25px;
+  background-color: black;
+}
+
+footer .about-company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+footer .about-company .container {
+  margin-right: 40px;
+  margin-top: 20px;
+  background-color: black;
+}
+
+.about-company .container h1 {
+  margin-bottom: 50px;
+  background-color: black;
+}
+
+.about-company .container p {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  background-color: black;
+}
+
